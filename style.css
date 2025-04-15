@@ -42,6 +42,7 @@ body{
 }  
 
 .image img{
+  margin-top: -20px;
   width: 150px;
   border-radius: 50%;
   border: 1px solid #59ff06;
@@ -59,7 +60,7 @@ body{
   color: var(--white);
   text-decoration: none;
   font-weight: 500;
-  padding: 8px;
+  padding: 0.5rem 20px;
   border: 1px solid var(--white);
   background-color: transparent;
   transition: 0.3s ease;
@@ -97,3 +98,14 @@ body{
   cursor: pointer;
 }
 
+
+
+@media screen and (min-width:767px) and (max-width:1025px) {
+   .card-chiled{
+      display: flex;
+      align-items: center;
+      justify-content:space-evenly;
+      flex-wrap: wrap;
+      padding: 5rem;
+   }
+}
