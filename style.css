@@ -21,6 +21,7 @@ body{
       color: var(--white);
       position: absolute;
       border-radius: 10px;
+      padding: 30px;
       top: 50%;
       left: 50%;
       border: 1px solid var(--white);
@@ -51,6 +52,9 @@ body{
   box-shadow: 0 0 20px #56ff02;
 }
 
+.image img:hover{
+  box-shadow: 0 0 50px #55ff00;
+}
 
 @keyframes hu__hu__ {
     50% { transform: translateY(10px) }
@@ -60,7 +64,7 @@ body{
   color: var(--white);
   text-decoration: none;
   font-weight: 500;
-  padding: 0.5rem 20px;
+  padding: 10px;
   border: 1px solid var(--white);
   background-color: transparent;
   transition: 0.3s ease;
@@ -100,12 +104,17 @@ body{
 
 
 
-@media screen and (min-width:767px) and (max-width:1025px) {
-   .card-chiled{
-      display: flex;
-      align-items: center;
-      justify-content:space-evenly;
-      flex-wrap: wrap;
-      padding: 5rem;
+@media screen and (min-width:300px) and (max-width:320px) {
+   .continer{
+       padding: 2px;
+       
    }
 }
+
+@media screen and (min-width:767px) and (max-width:1025px) {
+  .continer{
+      padding: 60px;
+      
+  }
+}
+
