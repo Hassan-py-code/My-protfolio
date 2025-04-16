@@ -24,7 +24,7 @@ body{
       padding: 30px;
       top: 50%;
       left: 50%;
-      border: 1px solid var(--white);
+      border: 1px solid var(--color2);
       background-color: #000;
       box-shadow: 0px 0px 40px 20px #00ff754d;
       transform: translate(-50%,-50%);
@@ -114,7 +114,7 @@ body{
 @media screen and (min-width:767px) and (max-width:1025px) {
   .continer{
       padding: 60px;
-      
   }
+
 }
 
